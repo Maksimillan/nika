@@ -1,0 +1,37 @@
+concept_message_about_banks
+<- sc_node_class;
+=> nrel_main_idtf:
+	[сообщение о банке]
+	    (* <- lang_ru;; *);
+	[message about bank]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_bank];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о банке)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about bank)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Банк (от итал. banco — скамья, лавка, стол, на которых менялы раскладывали монеты) — коммерческая кредитно-финансовая организация, действующая на основании специального разрешения (лицензии) для которой законодательно установлены как специфичные возможности по операциям с денежными средствами, так и ограничения на виды деятельности.]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Bank (from Italian banco - a bench, a bench, a table on which money changers laid out coins) - a commercial financial institution operating on the basis of a special permit (license) for which both specific opportunities for cash transactions and restrictions are legally established for types of activities.]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

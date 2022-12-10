@@ -1,0 +1,41 @@
+concept_message_about_life_safety_tasks
+<- sc_node_class;
+=> nrel_main_idtf:
+	[сообщение о задач безопасности жизнедеятельности]
+	    (* <- lang_ru;; *);
+	[life safety tasks]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_life_safety_tasks];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о задач безопасности жизнедеятельности)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about life safety tasks)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Важнейшими задачами учреждений общего среднего образования в области обеспечения безопасности жизнедеятельности являются:
+-   обучение учащихся умению распознавать и оценивать опасности окружающей среды;
+-   раскрытие системы знаний об опасностях различного происхождения, мерах по их предотвращению, ликвидации их последствий;]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The most important tasks of institutions of general secondary education in the field of ensuring life safety are:
+- teaching students to recognize and evaluate environmental hazards;
+- disclosure of a system of knowledge about hazards of various origins, measures to prevent them, eliminate their consequences;]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

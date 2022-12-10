@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip bank1.zip bank1\/app.json bank1\/entities\/*.json bank1\/intents\/*.json bank1\/traits\/*.json bank1\/utterances\/*.json bank1\/composer\/*.json",
+    "name": "bank1",
+    "lang": "ru",
+    "timezone": "America\/Los_Angeles"
+}

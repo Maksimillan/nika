@@ -1,0 +1,37 @@
+concept_message_about_early_history
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Ранняя история]
+	    (* <- lang_ru;; *);
+	[early history]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_early_history];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о Ранняя история памяти)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about early history)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Память DDR2 была введена во втором квартале 2003 года, конкурентоспособной с DDR стала к концу 2004 года. В 2010-х была в значительной степени вытеснена памятью стандарта DDR3.]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[DDR2 memory was introduced in the second quarter of 2003 and became competitive with DDR by the end of 2004. In the 2010s, it was largely superseded by DDR3 memory.]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

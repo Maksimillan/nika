@@ -1,0 +1,39 @@
+concept_message_about_goals
+<- sc_node_class;
+=> nrel_main_idtf:
+	[цели]
+	    (* <- lang_ru;; *);
+	[goals]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_goals];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о цели жизнидеятельности человека)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about goals)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Цель изучения безопасности жизнедеятельности — формирование и пропаганда знаний, направленных на снижение смертности и потерь здоровья людей от внешний факторов и причин. 
+    Создание защиты человека в техносфере от внешних негативных воздействий антропогенного, техногенного и естественного происхождения.]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The purpose of the study of life safety is the formation and promotion of knowledge aimed at reducing mortality and loss of human health from external factors and causes.
+    Creation of human protection in the technosphere from external negative impacts of anthropogenic, technogenic and natural origin.]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

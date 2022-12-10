@@ -1,0 +1,172 @@
+{
+    "utterances": [
+        {
+            "text": "\u043e\u043f\u0438\u0448\u0438\u0442\u0435 ddr2 ?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 8,
+                    "end": 12,
+                    "body": "ddr2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_ddr2"
+        },
+        {
+            "text": "\u043e\u043f\u0438\u0448\u0438\u0442\u0435 \u043f\u0440\u043e \u0437\u0430\u0434\u0430\u0447\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0436\u0438\u0437\u043d\u0435\u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 ?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 12,
+                    "end": 18,
+                    "body": "\u0437\u0430\u0434\u0430\u0447\u0438",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_concept_life_safety_tasks"
+        },
+        {
+            "text": "\u043e\u043f\u0438\u0448\u0438\u0442\u0435 \u0446\u0435\u043b\u044c \u0438\u0437\u0443\u0447\u0435\u043d\u0438\u044f \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u0436\u0438\u0437\u043d\u0435\u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 ?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 8,
+                    "end": 12,
+                    "body": "\u0446\u0435\u043b\u044c",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_concept_goals"
+        },
+        {
+            "text": "\u0440\u0430\u0441\u043a\u0430\u0436\u0438\u0442\u0435 \u043f\u0440\u043e simm",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 14,
+                    "end": 16,
+                    "body": "si",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_simm"
+        },
+        {
+            "text": "\u0440\u0430\u0441\u0441\u043a\u0430\u0436\u0438\u0442\u0435 \u043f\u0440\u043e  \u043f\u0440\u0438\u0437\u043d\u0430\u043a\u0438 \u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 ?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 16,
+                    "end": 24,
+                    "body": "\u043f\u0440\u0438\u0437\u043d\u0430\u043a\u0438",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_concept_danger_signs"
+        },
+        {
+            "text": "\u0440\u0430\u0441\u0441\u043a\u0430\u0436\u0438\u0442\u0435 \u043f\u0440\u043e \u0442\u0438\u043f\u044b \u0444\u0438\u043d\u0430\u043d\u0441\u043e\u0432 ?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 15,
+                    "end": 19,
+                    "body": "\u0442\u0438\u043f\u044b",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_type_finance"
+        },
+        {
+            "text": "\u0440\u0430\u0441\u0441\u043a\u0430\u0436\u0438\u0442\u0435 \u0440\u0430\u043d\u0443\u044e \u0438\u0441\u0442\u043e\u0440\u0438\u044e ?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 11,
+                    "end": 16,
+                    "body": "\u0440\u0430\u043d\u0443\u044e",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_early_history"
+        },
+        {
+            "text": "\u0447\u0442\u043e \u0442\u0430\u043a\u043e\u0435 rimm",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 10,
+                    "end": 13,
+                    "body": "rim",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_rimm"
+        },
+        {
+            "text": "\u0447\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u0431\u0430\u043d\u043a ?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 10,
+                    "end": 14,
+                    "body": "\u0431\u0430\u043d\u043a",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_bank"
+        },
+        {
+            "text": "\u0447\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c \u0436\u0438\u0437\u043d\u0438\u0434\u0435\u044f\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u0438 \u0447\u0435\u043b\u043e\u0432\u0435\u043a\u0430 ?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 10,
+                    "end": 22,
+                    "body": "\u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_human_life_safety"
+        },
+        {
+            "text": "\u0447\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u0444\u0438\u043d\u0430\u043d\u0441\u0438\u0432\u044b\u0439 \u043f\u0440\u043e\u0434\u0443\u043a\u0442 ?",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 21,
+                    "end": 28,
+                    "body": "\u043f\u0440\u043e\u0434\u0443\u043a\u0442",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_finance_product"
+        },
+        {
+            "text": "\u0447\u0442\u043e \u0442\u0430\u043a\u043e\u0435 \u0444\u0438\u043d\u0430\u043d\u0441\u044b",
+            "entities": [
+                {
+                    "entity": "rrel_entity:rrel_entity",
+                    "start": 10,
+                    "end": 17,
+                    "body": "\u0444\u0438\u043d\u0430\u043d\u0441\u044b",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "about_finance"
+        }
+    ]
+}

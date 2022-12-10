@@ -1,0 +1,37 @@
+concept_message_about_ddr2
+<- sc_node_class;
+=> nrel_main_idtf:
+	[ddr2 память]
+	    (* <- lang_ru;; *);
+	[ddr2]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_ddr2];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о ddr2)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about ddr2)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[это тип оперативной памяти, используемой в вычислительной технике в качестве оперативной и видеопамяти]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[is a type of RAM used in computing as RAM and video memory]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

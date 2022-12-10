@@ -1,0 +1,37 @@
+concept_message_about_rimm
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Римм]
+	    (* <- lang_ru;; *);
+	[rimm]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_rimm];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о Римм)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about rimm)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Сигнальный протокол Direct Rambus основан на электрическом интерфейсе RSL (Rambus Signaling Levels), дающем возможность при помощи технологии удвоенной передачи данных (DDR) получить результирующую частоту 800 МГц и использовать стандартный КМОП-интерфейс сигналов ввода-вывода ядра ASIC (Application Specific Integrated Circuit). Высокоскоростной протокол сигналов RSL использует низковольтные напряжения логических уровней.]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The Direct Rambus signaling protocol is based on the RSL (Rambus Signaling Levels) electrical interface, which makes it possible to obtain a resultant frequency of 800 MHz using DDR technology and use the standard CMOS ASIC (Application Specific Integrated Circuit) core I/O signal interface. The high-speed signaling protocol RSL uses low-voltage logic levels.]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

@@ -1,0 +1,37 @@
+concept_message_about_simm
+<- sc_node_class;
+=> nrel_main_idtf:
+	[Симм]
+	    (* <- lang_ru;; *);
+	[simm]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_simm];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о Симм)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about simm)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[SIMM (англ. single in-line memory module — односторонний модуль памяти) — форм-фактор модулей памяти с однорядным расположением контактов, широко применявшихся в компьютерных системах в 1990-е годы. Стандарты SIMM описаны в сборнике JESD-21C комитета JEDEC.]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[SIMM (single in-line memory module - single-sided memory module) is a form factor of memory modules with a single-row arrangement of contacts, which were widely used in computer systems in the 1990s. SIMM standards are described in JESD-21C by the JEDEC.]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

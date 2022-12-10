@@ -1,0 +1,37 @@
+concept_message_about_human_life_safety
+<- sc_node_class;
+=> nrel_main_idtf:
+	[сообщение о безопасности жизнидеятельности человека]
+	    (* <- lang_ru;; *);
+	[human life safety]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_human_life_safety];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о безопасности жизнидеятельности человека)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about human life safety)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Безопасность жизнедеятельности  – область научных знаний, охватывающих теорию и практику защиты человека и окружающей среды от опасных и вредных факторов во всех сферах человеческой деятельности, сохранение безопасности и здоровья в среде обитания.]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Life safety is a field of scientific knowledge, pedagogical theory and practical protection of a person and the environment from dangerous and harmful factors in all spheres of human life, health and environment.]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

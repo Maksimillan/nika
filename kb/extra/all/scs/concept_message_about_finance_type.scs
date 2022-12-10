@@ -1,0 +1,37 @@
+concept_message_about_finance_type
+<- sc_node_class;
+=> nrel_main_idtf:
+	[сообщение о финансы]
+	    (* <- lang_ru;; *);
+	[message about finance]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_type_finance];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о финансы типы)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about finance type)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Традиционно финансы разделяют на публичные финансы (централизованные, государственные и муниципальные финансы) и частные финансы (децентрализованные).]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[Traditionally, finance is divided into public finance (centralized, state and municipal finance) and private finance (decentralized).]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

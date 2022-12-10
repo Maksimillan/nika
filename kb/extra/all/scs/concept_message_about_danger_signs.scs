@@ -1,0 +1,39 @@
+concept_message_about_danger_signs
+<- sc_node_class;
+=> nrel_main_idtf:
+	[сообщение о признаках опасности]
+	    (* <- lang_ru;; *);
+	[danger signs]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_danger_signs];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о признаках опасности)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about danger signs)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Признаками, определяющими опасность, являются:
+угроза жизни и здоровью живых объектов; возможность нанесения ущерба здоровью и окружающей среде; возможность нарушения условий нормального функционирования организма человека и экологических систем.]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The danger signs are:
+threat to the life and health of living objects; potential damage to health and the environment; the possibility of violation of the conditions for the normal functioning of the human body and ecological systems.]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+

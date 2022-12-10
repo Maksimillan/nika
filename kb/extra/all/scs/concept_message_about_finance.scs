@@ -1,0 +1,37 @@
+concept_message_about_finance
+<- sc_node_class;
+=> nrel_main_idtf:
+	[сообщение о финансы]
+	    (* <- lang_ru;; *);
+	[message about finance]
+	    (* <- lang_en;; *);
+=> nrel_wit_ai_idtf:
+	[about_finance];
+<- rrel_key_sc_element:
+	...
+	(*
+	=> nrel_main_idtf:
+	    [Опр. (сообщение о финансы)]
+	        (* <- lang_ru;; *);
+	    [Def. (message about finance)]
+	        (* <- lang_en;; *);;
+	<- definition;;
+	<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+			[Теория финансов представляет собой широкую область как спекуляций, так и математических измерений, используемых для определения инвестиционных стратегий и оценок денежной стоимости]
+			    (* <- lang_ru;; *);;
+		*);
+		...
+		(*
+		-> rrel_example: 
+			[The theory of finance is a broad field of both speculation and mathematical measurement used to determine investment strategies and estimates of monetary value.]
+			    (* <- lang_en;; *);;
+		*);;
+	<= nrel_using_constants:
+		{
+			concept_atomic_message
+		};;		
+	*);;
+
